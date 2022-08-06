@@ -1,0 +1,57 @@
+body {
+    height: 100vh;
+    background-color: rgb(223, 153, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+}
+
+#timer {
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 35px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    margin: 0 20px;
+    /* border: none; */
+}
+
+button img {
+    font-size: 2rem;
+    padding: 10px;
+    color: #fff;
+    width: 40px;
+}
+
+#play {
+    background-color: green;
+}
+
+#pause {
+    background-color: orange;
+    transition: .6s ease-in;
+}
+
+#reset {
+    background-color: red;
+    transition: .2s ease-in;
+}
+
+#reset:active {
+    background-color: rgb(165, 70, 70);
+}
